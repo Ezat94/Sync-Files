@@ -27,10 +27,15 @@ git add .
 git commit -m "First commit"
 
 
-git remote add origin "https://URL"
+git remote add origin "https://github.com/Ezat94/Sync-Files"
 
   # Sets the new remote
 git remote -v  
 
+# pull :
+git pull "https://github.com/Ezat94/Sync-Files"
 
+# push :
 git push origin master
+
+
