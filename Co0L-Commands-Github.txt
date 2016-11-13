@@ -1,0 +1,39 @@
+# Vi Editter :
+dd   # cut this line
+3d   # cut three lines
+yy   # copy this line
+3y   # copy three lines
+p    # paste
+x    # delete char
+3x   # delte three chars
+w    # word foreward
+b    # word backward
+0    # begin of a line
+o    # down new line
+u    # Ctrl+Z
+G    # go to the last line at file
+v    # select some text ,, lines... chars ...  then press "d" to cut , or "y" to copy , then press "p" to paste
+y    # copy after select with "v"
+d    # cut after select with "v"
+
+# Like Arrows , right , left , down , up :
+h ,j , k , l  
+
+
+
+
+
+
+
+################################################################
+
+# copy non-empty directory :
+cp -r dire /path
+
+# move non-empty directory :
+mv dir /path
+
+
+
+cp -n   # copy without override 
+cp -i   # ask before override
