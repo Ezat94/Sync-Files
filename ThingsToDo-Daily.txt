@@ -1,13 +1,26 @@
 Things To Do :
 #################
+
+awk - sid
+password.sc
+ssh -p 2116 -L 3389:198
+ssh -D 1024 -p 2116 srv
+Network Mapping Tool
+mail02  -->  amavis , spam , ClamAv
+lsof -p process_id
 WireShark
 Log Analayser
-
-
+webhost01 Scripts
+IpTables
 Hacking
 Android
 
 
+###########################################
+for i in `ps -aux | grep php '{$2}'`;
+do kill -9 $i
+done
+##########################################
 
 
 Daily missions :
@@ -18,3 +31,5 @@ Terminal + Sql   summaries
 Network Videos
 Din
 
+
+# Sliman Hacking :  nans.gov.sy   / nessus 
