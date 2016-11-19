@@ -1,6 +1,7 @@
 Things To Do :
 #################
 OpenVpn - IpSec
+git  -  fork  - branch  -  clone
 awk - sid
 password.sc
 ssh -p 2116 -L 3389:198
