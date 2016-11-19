@@ -1,6 +1,6 @@
 Things To Do :
 #################
-
+OpenVpn - IpSec
 awk - sid
 password.sc
 ssh -p 2116 -L 3389:198
@@ -10,6 +10,7 @@ mail02  -->  amavis , spam , ClamAv
 lsof -p process_id
 WireShark
 Log Analayser
+git  -  fork  - branch  -  clone
 webhost01 Scripts
 IpTables
 Hacking
