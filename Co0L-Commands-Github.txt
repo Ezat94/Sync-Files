@@ -146,4 +146,19 @@ cat ~/.ssh/id_rsa.pub | ssh user@hostname 'cat >> .ssh/authorized_keys'
 
 
   # Import Database via terminal :
-mysql -u username -p databasename < filename.sql                 
+mysql -u username -p databasename < filename.sql    
+
+
+  # cat file inside with expressions :
+cat -Etv file              
+
+
+  # Get public ip address in terminal :
+wget http://ipinfo.io/ip -qO -
+
+
+  # lsof command that display processes and what files they use
+lsof 
+
+  # Display process that use something like folder or file :
+lsof 2>/dev/null | grep its_name      # then kill processes that displayed
