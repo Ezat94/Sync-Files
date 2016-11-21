@@ -1,0 +1,1 @@
+mysql -u admin -p`cat /etc/psa/.psa.shadow ` psa -e" SELECT accounts.id, mail.mail_name, accounts.password, domains.name FROM domains LEFT JOIN mail ON domains.id = mail.dom_id LEFT JOIN accounts ON mail.account_id = accounts.id "

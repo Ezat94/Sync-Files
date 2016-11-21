@@ -161,4 +161,4 @@ wget http://ipinfo.io/ip -qO -
 lsof 
 
   # Display process that use something like folder or file :
-lsof 2>/dev/null | grep its_name
+lsof 2>/dev/null | grep its_name      # then kill processes that displayed

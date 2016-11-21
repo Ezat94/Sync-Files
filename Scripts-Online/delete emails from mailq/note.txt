@@ -1,0 +1,2 @@
+  # you should run the script with what to delete parameter , Example :
+pfdel.pl *@yahoo.com                   # delete all messages to yahoo in mailq

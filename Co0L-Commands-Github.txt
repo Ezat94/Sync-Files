@@ -162,3 +162,11 @@ lsof
 
   # Display process that use something like folder or file :
 lsof 2>/dev/null | grep its_name      # then kill processes that displayed
+
+
+mailq
+postqueue -f
+
+  # Grep and display 4 lines after grep word :
+grep -A 4 word
+
