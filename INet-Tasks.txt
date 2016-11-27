@@ -11,15 +11,32 @@ cp agent-local/* /usr/lib/check_mk_agent/local
 chmod +x /usr/lib/check_mk_agent/local/$script
 /etc/init.d/xinetd restart
 
+#########################################################
+# Go to cd /opt/librenms-agent/agent-local/ :
+# then check Scripts :
+ ./mysql  , ./apache
 
+# in /opt/librenms-agent/agent-local/mysql.cnf :
 
 
 <?php
 $mysql_user = 'root';
-$mysql_pass = 'sWGy54OYbDDkBC54';
+$mysql_pass = '';
 
+#########################################################
+# test at LibreNMS :
+telnet syriatimes.sy 6556
+# then edit /usr/lib/check_mk_agent/local/mysql.cnf at syriatimes.sy :
 
+<?php
+$mysql_user = 'root';
+$mysql_pass = '';
+
+#########################################################
 
 /opt/librenms/addhost.php hn publicinet
 /opt/librenms/discovery.php -h hn01
 /opt/librenms/poller.php -h hn01
+
+
+inet2012****

@@ -1,5 +1,7 @@
 Things To Do :
 #################
+.htaccess
+Analaise php_error with "cut" or something
 OpenVpn - IpSec
 git  -  fork  - branch  -  clone
 awk - sid
