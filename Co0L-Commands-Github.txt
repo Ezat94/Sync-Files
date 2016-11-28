@@ -322,3 +322,6 @@ postqueue -f
   # Grep and display 4 lines after grep word :
 grep -A 4 word
 
+
+  # delete first 100 lines in a file :
+  sed -i 1,100d fileName
