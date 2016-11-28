@@ -3,6 +3,7 @@ Things To Do :
 .htaccess
 Log Analayser - watchdog
 Analaise php_error with "cut" or something
+sendmail tool
 OpenVpn - IpSec
 git  -  fork  - branch  -  clone
 awk - sid
