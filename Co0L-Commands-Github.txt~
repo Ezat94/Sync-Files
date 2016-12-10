@@ -122,9 +122,6 @@ systemctl unmask name.service
 
 
 
-
-
-
 ################################################################
 # copy non-empty directory :
 cp -r dire /path

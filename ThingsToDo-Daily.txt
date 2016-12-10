@@ -1,11 +1,26 @@
 Things To Do :
 #################
+sendmail -i your-address@example.com < sample-virus-simple.txt
+SeLinux modes ?
 OpenVpn - IpSec
 git  -  fork  - branch  -  clone
 awk - sid
+fg - bg
 password.sc
+
+   # Remote ssh , Dynamic  , ports .. :
+ssh -p 2115 -L 9191:192.168.80.205:80 ezat@server.inet.sy    
+   # 192.168.80.205 is LibreNMS which I want to connect to
+   # server.inet.sy is the server which I`ll connect through
+   # 9191 is my new local port to connect with
+   # 80 is the server port which I`ll connect to 
+
+ssh -v -p 2115 -L 8888:192.168.80.25:80 ezat@server.inet.sy
 ssh -p 2116 -L 3389:198
+ssh -D 9999 ezat@server.inet.sy -p 2115
 ssh -D 1024 -p 2116 srv
+
+
 Network Mapping Tool
 mail02  -->  amavis , spam , ClamAv
 lsof -p process_id

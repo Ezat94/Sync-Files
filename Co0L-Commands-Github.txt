@@ -147,3 +147,15 @@ cat ~/.ssh/id_rsa.pub | ssh user@hostname 'cat >> .ssh/authorized_keys'
 
   # Import Database via terminal :
 mysql -u username -p databasename < filename.sql                 
+
+
+  # format a flash memory or disk :
+  # first "df -h" to know which one it is sdba2 , sdb4 ...
+df -h
+  # then unmount it :
+umount /dev/sdb4
+mkfs.ntfs /dev/sdb4  
+
+
+  # Display all processes with its port that working on , netstat :
+netstat -tunlp
