@@ -1,0 +1,14 @@
+mailq
+postqueue -f
+
+
+   # type this command then send a message then see what this command output :
+tail -f /var/log/psa/maillog 2>/dev/null | grep -A 5 "ezat.mzahem@inet.sy"
+
+
+
+cd /var/spool/postfix/
+mailq                                      # copy frist number of every paragraph , like : C108476CD , C0AB2B0A7
+find . -name C0AB2B0A7                     # search for it in all folders : deffered , bounced ...
+postcat ./deferred/C/C0AB2B0A7             # Display find result with postcat tool , then block its ip with iptables
+/usr/local/inet/bin/pfdel.pl *@yahoo.com   # Delete all messages in queue was sent to *@yahho.com

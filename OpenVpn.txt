@@ -1,0 +1,11 @@
+# OpenVPN is a full-featured open source Secure Socket Layer (SSL) VPN solution .
+# It encript data at Application layer using ssl .
+# We will use easy-rsa package, which will help us set up an internal CA (certificate authority) for use with our VPN.
+
+# OpenVPN is an TLS/SSL VPN. This means that it utilizes certificates in order to encrypt traffic between the server and 
+# clients. In order to issue trusted certificates, we will need to set up our own simple certificate authority (CA).
+
+# Simple OpenVpn Access Server :
+https://www.youtube.com/watch?v=bzW9hInqJ70
+
+

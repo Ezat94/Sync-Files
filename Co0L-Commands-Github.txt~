@@ -122,6 +122,161 @@ systemctl unmask name.service
 
 
 
+<<<<<<< HEAD
+=======
+################################################################
+Awk :
+######
+# https://www.digitalocean.com/community/tutorials/how-to-use-the-awk-language-to-manipulate-text-in-linux
+
+   # basic format of an awk command is :
+awk '/search_pattern/ { action_to_take_on_matches; another_action; }' file_to_parse
+
+   # print a file :
+awk '{print}' /etc/fstab
+ 
+   # print line which match a word , like grep :
+awk '/UUID/' /etc/fstab
+
+   # print line which start with a word :
+awk '/^UUID/' /etc/fstab
+
+   # file is delimited with colons (:) instead of whitespace.If we wanted to print out the first column of this file, we could type:
+sudo awk 'BEGIN { FS=":"; } { print $1; }' /etc/passw
+
+   # We can tell awk to only match at the beginning of the second column by using this command :
+awk '$2 ~ /^sa/' favorite_food.txt
+
+   # We can just as easily search for things that do not match by including the "!" character before the tilde (~). 
+   # This command will return all lines that do not have a food that starts with "sa":
+awk '$2 !~ /^sa/' favorite_food.txt
+
+   # If we decide later on that we are only interested in lines where the above is true and the item number is less than 5 
+awk '$2 !~ /^sa/ && $1 < 5' favorite_food.txt
+
+   # 
+
+   # We can use the BEGIN and END blocks to print simple information about the fields we are printing :
+
+sudo awk 'BEGIN { FS=":"; print "User\t\tUID\t\tGID\t\tHome\t\tShell\n--------------"; }
+{print $1,"\t\t",$3,"\t\t",$4,"\t\t",$6,"\t\t",$7;}
+END { print "---------\nFile Complete" }' /etc/passwd
+
+######## Output will be : #############
+
+User        UID     GID     Home        Shell
+--------------
+root         0       0       /root       /bin/bash
+daemon       1       1       /usr/sbin       /bin/sh
+bin          2       2       /bin        /bin/sh
+sys          3       3       /dev        /bin/sh
+sync         4       65534       /bin        /bin/sync
+. . .
+---------
+File Complete
+
+  
+  
+   
+
+
+################################################################
+sed :
+######
+
+    # replace all matches and dont save :
+sed 's/word_old/new_word/g' file
+
+  # replace  the first occurence of 'a' in every line of the file and save it , -i to save to the same file :
+sed -i 's/word_old/new_word/g' file
+
+  # replace all matches and save it to new file :
+sed -e 's/word_old/new_word/g' file > new_file
+
+    # replace first match :
+sed 's/find/replace/' file
+ 
+    # To remove a specific character :
+sed 's/a//' file
+
+    # replace  1st character in every line :
+sed 's/^.//' file
+
+    # replaces only the 1st character since 'g' is not passed :
+sed 's/.//' file
+  
+    # replace  last character of every line :
+sed 's/.$//' file
+
+    # remove the 1st and last character of every line in the same command: 
+sed 's/.//;s/.$//' file
+
+    #  remove first character only if it is a specific character: 
+sed 's/^F//' file
+
+    # remove last character only if it is a specific character: 
+sed 's/x$//' file
+
+    # remove 1st 3 characters of every line: 
+sed 's/...//' file
+
+    #  remove 1st n characters of every line: 
+sed -r 's/.{4}//' file
+
+    # To remove last n characters of every line: 
+sed -r 's/.{3}$//' file
+
+    # remove everything except the 1st n characters in every line: 
+sed -r 's/(.{3}).*/\1/' file
+
+    # remove everything except the last n characters in a file: 
+sed -r 's/.*(.{3})/\1/' file
+
+    # remove multiple characters present in a file: 
+sed 's/[aoe]//g' file
+
+    # delete only nth occurrence of a character in every line: 
+sed 's/u//2' file
+
+    # delete everything in a line followed by a character: 
+sed 's/a.*//' file
+
+    #  remove all digits present in every line of a file: 
+$ sed 's/[0-9]//g' file
+
+    #  remove all lower case alphabets present in every line: 
+sed 's/[a-z]//g' file
+
+    # To remove everything other than the lower case alphabets: 
+sed 's/[^a-z]//g' file
+
+    #  remove all alpha-numeric characters present in every line:
+sed 's/[a-zA-Z0-9]//g' file
+
+   # 
+
+
+
+
+
+
+
+^	matches the beginning of the line
+$	matches the end of the line
+.	Matches any single character
+(character)*	match arbitrarily many occurences of (character)
+(character)?	Match 0 or 1 instance of (character)
+[abcdef]	Match any character enclosed in [] (in this instance, a b c d e or f) ranges of characters such as [a-z] are permitted. The behaviour of this deserves more description. See the page on grep for more details about the syntax of lists.
+[^abcdef]	Match any character NOT enclosed in [] (in this instance, any character other than a b c d e or f)
+
+
+
+
+
+
+
+
+>>>>>>> 2ac3564d973d49583bc3bd7378ae93dd28c64156
 ################################################################
 # copy non-empty directory :
 cp -r dire /path
@@ -146,4 +301,27 @@ cat ~/.ssh/id_rsa.pub | ssh user@hostname 'cat >> .ssh/authorized_keys'
 
 
   # Import Database via terminal :
-mysql -u username -p databasename < filename.sql                 
+mysql -u username -p databasename < filename.sql    
+
+
+  # cat file inside with expressions :
+cat -Etv file              
+
+
+  # Get public ip address in terminal :
+wget http://ipinfo.io/ip -qO -
+
+
+  # lsof command that display processes and what files they use
+lsof 
+
+  # Display process that use something like folder or file :
+lsof 2>/dev/null | grep its_name      # then kill processes that displayed
+
+
+mailq
+postqueue -f
+
+  # Grep and display 4 lines after grep word :
+grep -A 4 word
+

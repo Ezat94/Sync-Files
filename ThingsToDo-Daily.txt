@@ -1,7 +1,14 @@
 Things To Do :
 #################
+<<<<<<< HEAD
 sendmail -i your-address@example.com < sample-virus-simple.txt
 SeLinux modes ?
+=======
+.htaccess
+Log Analayser - watchdog
+Analaise php_error with "cut" or something
+sendmail tool
+>>>>>>> 2ac3564d973d49583bc3bd7378ae93dd28c64156
 OpenVpn - IpSec
 git  -  fork  - branch  -  clone
 awk - sid
@@ -25,7 +32,6 @@ Network Mapping Tool
 mail02  -->  amavis , spam , ClamAv
 lsof -p process_id
 WireShark
-Log Analayser
 git  -  fork  - branch  -  clone
 webhost01 Scripts
 IpTables
@@ -42,7 +48,8 @@ done
 
 Daily missions :
 #################
-Hadi
+English - CCNA - Android 
+Hadi  
 INet papers
 Terminal + Sql   summaries
 Network Videos
