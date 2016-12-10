@@ -1,5 +1,5 @@
-accelerate
-acquire
+accelerate                                                                                                                                                             
+acquire 																		
 administer
 affect
 alight  , he was in his Marcids but he necessitating  to alight
@@ -81,7 +81,119 @@ dare                                                   يجرأ
 decay    ؟
 deceive                                                  يخدع 
 decorate                                                  يزين
-
+arbitrate                      				 التحكيم
+anticipate                                               يتوقع
+ascertain                                               يتأكد
+attain                                                 يحقق - ينجز
+ban                                                    حظر - منع
+clap                                                    يصفق
+comb                                                   مشط
+deceive                                                يخدع
+dam                                                     يحجز
+cure                                                    يعالج
+crawl               					يزحف
+gaze 							ينظر
+glow                                                    يتوهج
+glue                                                    يغري
+grab                                                    يمسك
+grate                                                   يشبك
+grin                                                    يكشر
+greet                                                   يحيي
+grease                                                  يشحم
+guarantee                                               يضمن
+guard                                                   يحرص
+harras                                                  يرهق
+heal                                                    يعالج
+hang                                                    يعلق
+inform                                                  يخبر
+injure                                                  يجرح
+interfere                                               يتدخل
+itch                                                    يحك
+jail                                                    يسجن
+lick                                                    يلعق
+long                                                    يشتاق
+mate                                                    يصاحب
+melt                                                    يذوب
+mend                                                    يصلح
+meddle                                                  يتدخل
+measure                                                 يقيس
+memorize                                                يحفظ
+cough                                                   يسيل
+applaud 
+dust                                                    يمسح الغبار
+drown                                                   يغرق
+entertain                                               يسلي
+eleminate                                               يزيل
+exhibit                                                 يعرض
+fade                                                    يذبل
+fancy                                                   يتخيل
+fasten                                                  يرربط
+flap                                                    يرفرف
+fool                                                    يخدع
+heap                                                    يكدس
+heat                                                    يسخن
+hop                                                     يقفز
+hover                                                   يرفرف
+impress                                                 يذهل
+intend                                                  ينوي
+irritate                                                يزعج
+jam                                                     يثبت
+jog                                                     يهرول
+juggle                                                  يقذف
+knit                                                    يخيط
+label                                                   يصنع علامة
+last                                                    يستغرق من الوقت
+interest                                                يمتع
+lick                                                    يلعق
+march                                                   يزحف
+messup                                                  يلخبط
+mine                                                    يثقب
+moan                                                    يئن
+mourn                                                   يندب
+muddle                                                  يحدث فوضى او تشويش
+nest                                                    يبني عش
+obey                                                    يطيع
+object                                                  يعترض
+observe                                                 يراقب
+knot                                                    يعقد
+pull                                                    يسحب او يجر
+pump                                                    يضخ
+punch                                                   يثقب-يلكم
+punish                                                  يعاقب
+purchase                                                يشتري
+push                                                    يدفع للامام
+qualify                                                 يتأهل
+quarrel                                                 يتشاجر
+queue                                                   يقف في الطابور
+quicken                                                 يسرع
+quote                                                   يقتبس
+quack                                                   يشعوذ
+quip                                                    يسخر من
+recognize                                               يدرك
+reign                                                   يحكم
+order                                                   يأمر
+pamper                                                  يدلل طفل - يشبع رغبة
+pardon                                                  يسامح
+participate                                             يشارك في
+persuade                                                يقنع
+pinch                                                   يقرص
+plant                                                   يزرع
+pick                                                    يختار
+poke                                                    يكز
+polish                                                  يلمع
+pop                                                     يظهر فجأة
+rescue                                                  ينقذ
+resist                                                  يقاوم 
+rob                                                     يسرق
+risk                                                    يخاطر
+rinse                                                   يشطف
+review                                                  يستعرض
+rock                                                    يهز - يتأرجح
+roll                                                    يطوي
+rot                                                     يتعفن
+rub                                                     يحتك - يمحو
+ruin                                                    يخرب 
+rush                                                    يندفع
 
 
 ================================================================================
